@@ -1,4 +1,4 @@
-# Cognito News
+#  Cognito News
 
 A modern, responsive news application built with React that delivers categorized news content with a beautiful user interface and dark mode support.
 
