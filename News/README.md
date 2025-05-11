@@ -1,6 +1,6 @@
 # Cognito News App
 
-A modern news application that provides up-to-date news from various categories using the NewsAPI.
+A modern, responsive news application built with React that delivers categorized news content with a beautiful user interface and dark mode support.
 
 ## Features
 
@@ -9,6 +9,7 @@ A modern news application that provides up-to-date news from various categories 
 - Light/dark theme toggle
 - Responsive design for all device sizes
 - Clean, modern UI with a bento box style layout
+- Fast and optimized performance
 
 ## Tech Stack
 
@@ -40,6 +41,30 @@ VITE_NEWS_API_KEY=your_api_key_here
 npm run dev
 ```
 
+The application will be available at `http://localhost:5173`
+
+## Project Structure
+
+```
+cognito-news/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── context/        # Theme context and other global state
+│   ├── pages/          # Page components
+│   ├── services/       # API services
+│   ├── App.jsx         # Main application component
+│   └── main.jsx        # Application entry point
+├── public/             # Static assets
+└── package.json        # Project dependencies and scripts
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint for code quality
+
 ## Deployment to Netlify
 
 This app is configured for easy deployment to Netlify:
@@ -62,6 +87,20 @@ This app is configured for easy deployment to Netlify:
 
 NewsAPI has CORS restrictions that prevent direct API calls from browsers in production environments. The current implementation works for local development but will need to be adapted for production use.
 
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## License
 
 MIT
+
+## Acknowledgments
+
+- Built with React and modern web technologies
+- Powered by NewsAPI for real-time news data
+- Icons and design resources from various open-source projects
